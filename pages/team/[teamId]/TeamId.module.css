@@ -1,0 +1,30 @@
+.pageContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+.pageContent a {
+  cursor: pointer;
+  color: #083d77;
+  font-weight: bold;
+}
+
+.activeNav {
+  cursor: pointer;
+  color: #083d77;
+  font-size: 17px;
+}
+
+.activeNav:hover,
+.pageContent a:hover {
+  text-decoration: underline;
+}

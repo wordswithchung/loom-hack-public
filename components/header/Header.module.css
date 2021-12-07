@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  height: 60px;
+  width: 100vw;
+  background-color: #00cecb;
+  box-shadow: 10px 10px 25px -15px rgba(0, 0, 0, 0.64);
+}
+
+.logo {
+  font-family: Readex;
+  font-size: 40px;
+  text-shadow: 4px 3px 4px #ffed66;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.right:first-child {
+  margin-right: 10px;
+}
+
+.nav a {
+  margin: 0 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.item span {
+  margin-left: 5px;
+}

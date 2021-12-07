@@ -1,0 +1,58 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  height: 100vh;
+  /* background-image: url("/joanna-kosinska-0CQfTLOVTPU-unsplash.jpg"); */
+  background-image: url("/annie-spratt-QKo-op_gR9I-unsplash.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.logo {
+  font-family: Readex;
+  font-size: 40px;
+  text-shadow: 4px 3px 4px #ffed66;
+  margin-bottom: 30px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+}
+
+.form input {
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #ebebd3;
+  border: 1px solid #083d77;
+  box-shadow: 10px 10px 25px -15px rgba(0, 0, 0, 0.64);
+}
+
+.form label {
+  font-weight: bold;
+}
+
+.form button {
+  height: 40px;
+  border-radius: 50px;
+  font-size: 18px;
+  color: white;
+  box-shadow: 10px 10px 25px -15px rgba(0, 0, 0, 0.64);
+  border: 1px solid #083d77;
+  background-color: #083d77;
+  width: 200px;
+}
+
+.error {
+  font-weight: bold;
+  color: #e5383b;
+  text-align: center;
+}
